@@ -1,0 +1,4 @@
+holiday:
+  api:
+    base-url: https://test-api.example.com/
+
