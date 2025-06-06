@@ -1,9 +1,14 @@
 package com.accenture.holidays.domain.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import java.time.LocalDate;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Holiday {
     private LocalDate date;
     private String localName;
@@ -14,4 +19,5 @@ public class Holiday {
     private String[] counties;
     private int launchYear;
     private String[] types;
-} 
+
+}
